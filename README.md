@@ -8,3 +8,6 @@
 7.Search products functionality
 8.Cart functionality (add to cart,delete from cart)
 9.Bootstrap 5 for styling
+credentials:
+Email:jerry123@gmail.com
+Password:Jerry@1807
