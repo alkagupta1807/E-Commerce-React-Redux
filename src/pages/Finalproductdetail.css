@@ -1,0 +1,164 @@
+.single_pro{
+    margin:100px;
+    padding:20px 50px;
+    display:flex;
+    gap:50px;
+    /* overflow:hidden; */
+    height:100vh;
+
+}
+.left_f{
+    flex:1;
+    display:flex;
+    gap:20px;
+}
+.images_div_f{
+flex:1;
+}
+.img_style_f{
+    width:100%;
+    /* height:150px; */
+     max-height:150px;
+    object-fit:cover;
+    cursor:pointer;
+    margin-bottom:10px;
+    /* overflow:hidden; */
+    min-height:20%;
+}
+.mainImg{
+flex:5;
+
+}
+.main_imgstyle{
+    width:100%;
+    /* max-height:800px; */
+    object-fit:cover;
+}
+.right_f{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    /* gap:30px; */
+    gap:15px;
+}
+.price_sty{
+    font-size:30px;
+    color:#2879fe;
+    font-weight: 500;
+}
+.p_description{
+    font-size: 18px;
+    font-weight:300;
+    text-align: justify;
+}
+.final_quantity{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+.f_btn{
+    width:50px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    border:none;
+}
+.add_icon{
+    width:250px;
+    padding:10px;
+    background-color:#2879fe;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    cursor:pointer;
+    border:none;
+    font-weight: 500;
+}
+.final_links{
+    display:flex;
+    gap:20px;
+}
+.f_item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#2879fe;
+    font-size:14px;
+   
+}
+.f_info{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    color:gray;
+    font-size:14px;
+    /* margin-top:30px; */
+    margin-bottom:10px;
+}
+.hr_sty{
+    width:200px;
+    border:1px solid rgb(238,237,237);
+}
+.f_details{
+    display:flex;
+    flex-direction:column;
+    /* gap:10px; */
+    color:gray;
+    font-size:14px;
+    /* margin-top:30px; */
+}
+.hr_sty_1{
+    border:1px solid rgb(238,237,237);
+}
+
+@media screen and (max-width: 1200px) {
+    .single_pro {
+      margin: 50px;
+      padding: 20px;
+      flex-direction: column;
+      height: auto;
+    }
+    .left_f,
+    .right_f {
+      flex: 1;
+      width: 100%;
+    }
+    .mainImg {
+      margin-top: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .single_pro {
+      margin: 20px;
+      gap: 20px;
+    }
+    .images_div_f{
+        display:none;
+    }
+    .left_f,
+    .right_f {
+      flex: 1;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .left_f,
+    .right_f {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .add_icon {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+  

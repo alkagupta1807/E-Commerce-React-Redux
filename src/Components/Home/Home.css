@@ -1,0 +1,228 @@
+.carousel-inner .carousel-item{
+    height:100vh;
+    /* height:100%; */
+    max-width:100%;
+    /* height:400px; */
+    /* margin-top:50px; */
+    padding-top:70px;
+    
+}
+@media only screen and (max-width:992px){
+    .carousel-inner .carousel-item{
+padding-top:50px;
+    }
+}
+    
+
+.banner{
+    /* -webkit-background-size:cover; */
+    background-size: cover!important;
+    /* background-size:contain; */
+    background-position:top center!important;
+    /* background-position:69%; */
+    background-repeat: no-repeat;
+    /* height:100vh; */
+     height:100%;
+    max-width:100%;
+    /* height:auto; */
+    /* object-fit:cover; */
+    /* height:80vh; */
+    /* min-width:50%;
+    height:auto; */
+    /* min-width:100%; */
+ 
+
+}
+/* .carousel-inner .carousel-item .bg_image{
+    background:url(../../../public/images/banner-img-1.jpg) top/cover no-repeat;
+} */
+.carousel-caption{
+    /* padding-bottom:250px; */
+    padding-bottom:220px;
+    font-family:poppins;
+    /* margin-top:20px; */
+    /* padding-top:200px; */
+
+}
+.carousel-caption h2{
+    font-size:70px;
+    text-transform:uppercase;
+    font-weight:bold;
+    /* margin-top:20px; */
+    /* padding-top:200px; */
+
+}
+.carousel-caption h2 span{
+    color:#e75480;
+}
+.carousel-caption a{
+    background:#e75480;
+    padding:15px 35px;
+    display:inline-block;margin-top:15px;
+    color:#fff;
+    text-transform: uppercase;
+    border-radius:25px;
+    
+
+}
+/* .carousel-control.right{
+    background-image:none;
+
+}
+.carousel-control.left{
+    background-image:none; */
+    
+/* } */
+@media only screen and (max-width:767px){
+    .carousel-caption{
+        /* padding-bottom:120px; */
+        padding-bottom:200px;
+    }
+    .carousel-caption h2{
+        font-size:25px;
+        /* padding-bottom:120px; */
+
+    }
+    .carousel-caption h3{
+        font-size: 18px;
+        /* padding-bottom:120px; */
+    }
+}
+/* timer_counter */
+.timer_count{
+    background:rgb(150, 21, 43);
+    /* height:300px; */
+    /* margin:20px 20px 20px 20px!important; */
+    /* padding:20px 20px 20px 20px; */
+    margin:40px 0;
+    margin-bottom:0;
+    padding: 30px 0;
+    overflow-x: hidden;
+    padding:20px 40px;
+    
+
+}
+.timer_count img{
+    /* width:70% !important;
+    height:70% !important;
+    object-fit:contain; */
+
+
+}
+.con_div{
+    /* padding:0px; */
+}
+.store_btn{
+    background:#fff;
+    font-size:18px;
+    padding:18px;
+    color:rgb(150, 21, 43);
+    font-weight:600;
+    border-radius:20px;
+
+}
+.store_btn a:hover{
+color:darkmagenta;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1000; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  
+  .visible {
+    opacity: 1;
+  }
+  
+ 
+  .non-visible {
+    opacity: 0;
+  }
+  .section-p1{
+    /* padding:40px 80px; */
+    padding:20px 40px;
+}
+  .feature_title{
+    text-align:center;
+}
+#feature{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+#feature .fe-box{
+    
+    width:180px;
+    text-align:center;
+    padding:25px 15px;
+    box-shadow:20px 20px 34px rgba(0,0,0,0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow:10px 10px 54px rgba(70,62,221,0.1)
+}
+#feature .fe-box img{
+    width:100%;
+    margin-bottom:10px;
+}
+#feature .fe-box h6{
+    display:inline-block;
+    padding:9px 8px 6px 8px;
+    line-height:1;
+    border-radius:4px;
+    color:#088178;
+    background-color:#fddde4
+}
+#feature .fe-box:nth-child(2) h6{
+    background-color: #cdebbc;
+}
+#feature .fe-box:nth-child(3) h6{
+    background-color: #d1e8f2;
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color: #cdd4f8;
+}
+#feature .fe-box:nth-child(5) h6{
+    background-color: #f6dbf6;
+}
+#feature .fe-box:nth-child(6) h6{
+    background-color: #fff2e5;
+}
+@media (max-width: 575.98px) {
+    #feature .fe-box {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #feature .fe-box {
+        width: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #feature .fe-box {
+        width: calc(33.33% - 30px); 
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #feature .fe-box {
+        width: calc(25% - 30px); 
+    }
+}
+  

@@ -1,0 +1,114 @@
+.carousel_1{
+    /* padding:5rem; */
+    /* background-color:#000; */
+    /* color:#fff; */
+    /* height:100vh; */
+    /* width:100vw; */
+    padding:2rem ;
+    /* width:100%; */
+    /* background-color: yellow; */
+    /* background-color:aqua; */
+}
+.carousel__item_1{
+  width:50%;
+    /* max-width:100%; */
+}
+.top_brands_title{
+text-align:center;
+}
+.carousel_1 h2{
+    text-align:center;
+}
+.box_1{
+     background-color: lightgreen; 
+    /* height:300px;  */
+    width:100%;
+    max-width:100%;
+    /* max-width:none; */
+
+}
+.box_1{
+    /* padding-left:10px; */
+    /* margin-left:4px; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:red; */
+    margin-left:60px;
+    margin-right:60px;
+    /* width:100%;
+    max-width:100%; */
+}
+.box_1 h2{
+    text-align:center;
+
+}
+
+/* .react-multi-carousel-track ul{
+    align-items:center !important;
+    justify-content: center !important;
+}
+.react-multi-carousel-item .react-multi-carousel-item--active li{
+    display: flex;
+    align-items:center !important;
+    justify-content: center !important;
+} */
+.responsive-image {
+  width:100%;
+    max-width: 100%;
+    /* max-width:none; */
+    height: auto;
+  }
+
+  
+  @media (max-width: 576px) {
+    .responsive-image {
+    
+      max-width: 80%;
+    }
+  }
+  
+ 
+  @media (max-width: 992px) {
+    .responsive-image {
+      max-width:100%;
+      width:100%;
+    }
+  } 
+  @media (max-width: 1200px) {
+    .responsive-image {
+      /* width:16rem; */
+      max-width:100%;
+      width:100%;
+    }
+  } 
+  /* @media (max-width: 575.98px) {
+    
+    .responsive-image {
+      width: 100%; 
+      margin: 0 0 20px 0;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 991.98px) {
+    
+    .responsive-image {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (min-width: 992px) {
+   
+    .responsive-image {
+      width: calc(33.33% - 20px); 
+    }
+  } */
+   .carousel__container_1 {
+    margin-left: 20px; 
+    margin-right:20px;
+   }  
+   
+  /* .carousel__item_1  {
+    padding: 0 15px; 
+  /* } */ 
+  

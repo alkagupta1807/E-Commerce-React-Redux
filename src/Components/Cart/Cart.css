@@ -1,0 +1,131 @@
+/* .cart_div_main{
+    position:relative;
+} */
+
+
+.cart_sty{
+    /* position:absolute; */
+    /* right:20px; */
+    /* top:80px; */
+    /* z-index:999; */
+    margin:100px;
+    background-color:white;
+    padding:20px;
+    -webkit-box-shadow:0px 0px 7px -5px rgba(0,0,0,0.5);
+    box-shadow:0px 0px 7px -5px rgba(0,0,0,0.5);
+}
+.h1_cart{
+    /* margin-bottom:30px; */
+    margin-bottom:50px;
+    color:gray;
+    font-weight: 400;
+    font-size:24px;
+}
+.item_cart{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    margin-bottom:30px;
+}
+.item_cart_img{
+    width:80px;
+    height:100px;
+    object-fit:cover;
+
+}
+.details_cart{
+
+}
+.detail_h1{
+    font-size:18px;
+    font-weight:500;
+
+}
+.detail_p{
+    color:gray;
+    margin-bottom:10px;
+    font-size:14px;
+
+
+}
+.price_cart{
+    color:#2879fe;
+}
+.delete_icon{
+    color:red;
+    font-size:30px;
+    cursor:pointer;
+}
+.subtotal{
+    /* display:flex; */
+    justify-content:space-evenly;
+    /* justify-content: center; */
+    font-weight: 500;
+    font-size:18px;
+    margin-bottom:20px;
+}
+.exact_price{
+margin-left:17px;
+}
+.proceed_btn{
+    width:250px;
+    padding:10px;
+    background-color:#2879fe;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    cursor:pointer;
+    border:none;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.reset{
+    color:red;
+    font-size:18px;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .cart_sty {
+      margin: 50px;
+      padding: 20px;
+    }
+    .item_cart {
+      gap: 10px;
+    }
+    .h1_cart {
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .cart_sty {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .item_cart {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .item_cart_img {
+      width: 100px;
+      height: 120px;
+    }
+    .h1_cart {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .proceed_btn {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+  
