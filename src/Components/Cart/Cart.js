@@ -1,15 +1,13 @@
 import React from 'react'
 import "./Cart.css";
-import productImg01 from "../../assets/images/featured_1.1.png";
-import productImg02 from "../../assets/images/featured_1.2.png";
-import productImg03 from "../../assets/images/featured_2.2.png";
+
 import { MdOutlineDelete } from "react-icons/md";
 
-import productImg04 from "../../assets/images/featured_2.1.png";
+
 import { cartActions } from '../../Redux/cartSlice';
 import { useSelector,useDispatch } from 'react-redux';
 const Cart = () => {
-const dispatch=useDispatch();
+
 const cartItems=useSelector(state=>state?.cart.cartItems);
 const totalAmount=useSelector(state=>state?.cart.totalAmount);
 

@@ -27,8 +27,7 @@ import productImg07 from "../images/yellow_saree.png";
 // import productImg23 from "../images/wireless-01.png";
 
 // import productImg25 from "../images/wireless-03.png";
-import ladiesshirt01 from "../images/ladiesshirt1.png";
-import ladiesshirt02 from "../images/ladiesshirt2.png";
+
 
 const categoriesProducts = [
   // {
